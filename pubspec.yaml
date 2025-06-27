@@ -1,5 +1,5 @@
 name: rainy_pay
-description: Simple Rainy Pay wallet (USDT-BEP20, Polygon, LTC)
+description: Simple Rainy Pay wallet (USDT-BEP20, Polygon, LTC UI only)
 version: 0.9.0
 
 environment:
@@ -9,9 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_web3: ^1.3.0
-  litecoin_dart: ^0.1.0
-  clipboard: ^0.1.0
+  clipboard: ^0.1.3
 
 flutter:
   uses-material-design: true
